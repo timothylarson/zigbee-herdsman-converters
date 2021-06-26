@@ -13,7 +13,6 @@ module.exports = [
         vendor: 'Sengled',
         description: 'Smart LED multicolor (BR30)',
         extend: extend.light_onoff_brightness_colortemp_color(),
-        ota: ota.zigbeeOTA,
     },
     {
         zigbeeModel: ['E1G-G8E'],
